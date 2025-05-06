@@ -20,17 +20,19 @@ Dynamic Single Page App (SPA) with Hash Routing - MVC Pattern + SCSS
 /project-root
 │
 ├── index.html
-├── /pages/ ← Contains individual HTML content files
-│ ├── home.html
-│ ├── about.html
-│ └── contact.html
+│
+├── /pages/                   ← Contains individual HTML content files
+│   ├── home.html
+│   ├── about.html
+│   └── contact.html
 │
 ├── /js/
-│ ├── app.js ← Controller (routing and nav logic)
-│ └── model.js ← Model (fetches HTML content)
+│   ├── app.js                ← Controller (routing and nav logic)
+│   └── model.js              ← Model (fetches HTML content)
 │
 └── /css/
-└── styles.css ← Contains nav-white and nav-black classes
+    └── styles.css            ← Contains nav-white and nav-black classes
+
 
 ### LINK WEB4
 

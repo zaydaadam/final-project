@@ -18,6 +18,7 @@ Dynamic Single Page App (SPA) with Hash Routing - MVC Pattern + SCSS
 ### 📁 Project Structure
 
 final-project/
+final-project/
 │
 ├── index.html
 │

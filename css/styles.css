@@ -26,6 +26,7 @@ p {
   width: 1280px;
   position: fixed;
   top: 0;
+  margin: 0 auto;
 }
 .nav-container nav {
   border-bottom: 0.18rem solid;
@@ -183,7 +184,7 @@ footer .copyright {
   align-items: center;
 }
 .home .home-hero {
-  background-image: linear-gradient(rgba(255, 209, 64, 0.8)), url("/images/home.png");
+  background-image: linear-gradient(rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url("../images/home.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -216,7 +217,8 @@ footer .copyright {
   font-size: 20px;
   margin-top: 44px;
   margin-bottom: 43px;
-  width: 420px;
+  max-width: 420px;
+  width: 100%;
   min-height: 58px;
   text-align: center;
 }
@@ -264,7 +266,7 @@ footer .copyright {
 }
 .home .events {
   width: 100%;
-  height: 320px;
+  min-height: 320px;
   background-color: #540d6e;
 }
 .home .events .events-header {
@@ -274,7 +276,7 @@ footer .copyright {
   padding-top: 8px;
   font-weight: 400;
   width: 392px;
-  height: 45px;
+  min-height: 45px;
   margin-top: 40px;
   margin-left: 40px;
   color: white;
@@ -284,7 +286,8 @@ footer .copyright {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   margin-left: 40px;
   margin-top: 35px;
   margin-bottom: 72px;
@@ -338,7 +341,7 @@ footer .copyright {
   max-width: 980px;
 }
 .about .about-hero {
-  background-image: linear-gradient(rgba(255, 209, 64, 0.8)), url("/images/about.png");
+  background-image: linear-gradient(rgba(255, 209, 64, 0.8)), url("../images/about.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -383,7 +386,7 @@ footer .copyright {
   justify-content: space-between;
 }
 .gallery .gallery-images .gallery-row .gallery-image-one {
-  background-image: linear-gradient(rgba(255, 209, 64, 0.8)), url("/images/gallery-image-one.png");
+  background-image: linear-gradient(rgba(255, 209, 64, 0.8)), url("../images/gallery-image-one.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -392,7 +395,7 @@ footer .copyright {
   width: 100%;
 }
 .gallery .gallery-images .gallery-row .gallery-image-two {
-  background-image: linear-gradient(rgba(238, 67, 103, 0.8)), url("/images/gallery-image-two.png");
+  background-image: linear-gradient(rgba(238, 67, 103, 0.8)), url("../images/gallery-image-two.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -401,7 +404,7 @@ footer .copyright {
   width: 100%;
 }
 .gallery .gallery-images .gallery-row .gallery-image-three {
-  background-image: linear-gradient(rgba(8, 173, 105, 0.8)), url("/images/gallery-image-three.png");
+  background-image: linear-gradient(rgba(8, 173, 105, 0.8)), url("../images/gallery-image-three.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -416,7 +419,7 @@ footer .copyright {
   margin-bottom: 60px;
 }
 .gallery .gallery-images .gallery-row-two .gallery-two-image-one {
-  background-image: linear-gradient(rgba(84, 13, 110, 0.8)), url("/images/galler-image-four.png");
+  background-image: linear-gradient(rgba(84, 13, 110, 0.8)), url("../images/galler-image-four.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -425,7 +428,7 @@ footer .copyright {
   width: 100%;
 }
 .gallery .gallery-images .gallery-row-two .gallery-two-image-two {
-  background-image: linear-gradient(rgba(59, 206, 171, 0.8)), url("/images/gallery-image-five.png");
+  background-image: linear-gradient(rgba(59, 206, 171, 0.8)), url("../images/gallery-image-five.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -443,7 +446,7 @@ footer .copyright {
 .gallery-all .galleryOne {
   height: 400px;
   position: relative;
-  background-image: linear-gradient(rgba(255, 209, 64, 0.6)), url("/images/gallery-image-one.png");
+  background-image: linear-gradient(rgba(255, 209, 64, 0.6)), url("../images/gallery-image-one.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -464,7 +467,7 @@ footer .copyright {
 .gallery-all .galleryTwo {
   height: 400px;
   position: relative;
-  background-image: linear-gradient(rgba(238, 67, 103, 0.6)), url("/images/galleryTwo.png");
+  background-image: linear-gradient(rgba(238, 67, 103, 0.6)), url("../images/galleryTwo.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -485,7 +488,7 @@ footer .copyright {
 .gallery-all .galleryThree {
   height: 400px;
   position: relative;
-  background-image: linear-gradient(rgba(8, 173, 105, 0.6)), url("/images/galleryThree.png");
+  background-image: linear-gradient(rgba(8, 173, 105, 0.6)), url("../images/galleryThree.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -506,7 +509,7 @@ footer .copyright {
 .gallery-all .galleryFour {
   height: 400px;
   position: relative;
-  background-image: linear-gradient(rgba(84, 13, 110, 0.6)), url("/images/galleryFour.png");
+  background-image: linear-gradient(rgba(84, 13, 110, 0.6)), url("../images/galleryFour.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -528,7 +531,7 @@ footer .copyright {
 .gallery-all .galleryFive {
   height: 400px;
   position: relative;
-  background-image: linear-gradient(rgba(59, 206, 171, 0.6)), url("/images/galleryFive.png");
+  background-image: linear-gradient(rgba(59, 206, 171, 0.6)), url("../images/galleryFive.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -613,7 +616,7 @@ footer .copyright {
   font-size: 12px;
 }
 .blog .blog-all-container .blog-all .blog-info .blog-image {
-  background-image: url("/images/blog.png");
+  background-image: url("../images/blog.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -647,7 +650,7 @@ footer .copyright {
   margin-bottom: 151px;
 }
 .blog-all-one .blog-hero-one {
-  background-image: linear-gradient(rgba(238, 67, 103, 0.6)), url("/images/blogOne.png");
+  background-image: linear-gradient(rgba(238, 67, 103, 0.6)), url("../images/blogOne.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -757,7 +760,7 @@ footer .copyright {
   cursor: pointer;
 }
 .contact .contact-info .contact-map {
-  background-image: url("/images/map.png");
+  background-image: url("../images/map.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

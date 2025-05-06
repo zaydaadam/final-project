@@ -9,6 +9,7 @@
     "lib": "lib"
   },
   "dependencies": {
+    "i": "^0.3.7"
   },
   "scripts": {
     "serve": "live-server",

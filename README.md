@@ -17,21 +17,22 @@ Dynamic Single Page App (SPA) with Hash Routing - MVC Pattern + SCSS
 
 ## Project Structure
 
-/project-root
+final-project/
 │
-├── index.html
+├── index.html                    # Main entry point
 │
-├── /pages/                   ← Contains individual HTML content files
+├── pages/                        # HTML content for each route
 │   ├── home.html
 │   ├── about.html
 │   └── contact.html
 │
-├── /js/
-│   ├── app.js                ← Controller (routing and nav logic)
-│   └── model.js              ← Model (fetches HTML content)
+├── js/                           # JavaScript files
+│   ├── app.js                    # Controller: routing and nav logic
+│   └── model.js                  # Model: loads page content dynamically
 │
-└── /css/
-    └── styles.css            ← Contains nav-white and nav-black classes
+├── css/
+│   └── styles.css                # Contains styles for nav-white and nav-black
+
 
 
 ### LINK WEB4

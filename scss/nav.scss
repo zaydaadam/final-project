@@ -1,0 +1,85 @@
+@use "variables" as v;
+
+.nav-container {
+  width: v.$site-width;
+  position: fixed;
+  top: 0;
+
+  nav {
+    border-bottom: 0.18rem solid;
+    border-color: white;
+    height: 92.5px;
+    display: flex;
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+    .navbar-logo {
+      border: 0.18rem solid;
+      border-color: white;
+      width: 90px;
+      height: 40px;
+      margin-right: 500px;
+      margin-top: 16px;
+      display: flex;
+      align-items: end;
+
+      span {
+        font-weight: v.$gsb;
+        font-size: 20px;
+        margin-bottom: -6px;
+        color: white;
+      }
+    }
+
+    a {
+      margin-top: 16px;
+      font-weight: v.$gsb;
+      color: white;
+      font-size: 15px;
+      text-decoration: none;
+    }
+
+    .slash {
+      font-size: 35px;
+      height: 21.52px;
+      color: v.$color-pink;
+      font-weight: lighter;
+      margin-bottom: 10px;
+    }
+
+    &.nav-black {
+      border-color: black;
+
+      a {
+        color: black;
+      }
+
+      .navbar-logo {
+        border-color: black;
+
+        span {
+          color: black;
+        }
+      }
+    }
+
+    &.nav-white {
+      border-color: white;
+
+      a {
+        color: white;
+      }
+
+      .navbar-logo {
+        border-color: white;
+
+        span {
+          color: white;
+        }
+      }
+    }
+  }
+}

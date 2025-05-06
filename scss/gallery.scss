@@ -1,0 +1,81 @@
+@use "variables" as v;
+.gallery {
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 153px;
+  .gallery-header {
+    font-size: 25px;
+    font-weight: v.$gsb;
+    width: 230px;
+    border-bottom: 2px solid;
+    // background-color: yellow;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+  }
+  .gallery-images {
+    .gallery-row {
+      // background-color: red;
+      margin-bottom: 20px;
+      height: 187px;
+      display: flex;
+      justify-content: space-between;
+      .gallery-image-one {
+        background-image: linear-gradient(rgba(255, 209, 64, 0.8)),
+          url("/images/gallery-image-one.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 187px;
+        max-width: 489px;
+        width: 100%;
+      }
+      .gallery-image-two {
+        background-image: linear-gradient(rgba(238, 67, 103, 0.8)),
+          url("/images/gallery-image-two.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 187px;
+        max-width: 187px;
+        width: 100%;
+      }
+      .gallery-image-three {
+        background-image: linear-gradient(rgba(8, 173, 105, 0.8)),
+          url("/images/gallery-image-three.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 187px;
+        max-width: 265px;
+        width: 100%;
+      }
+    }
+    .gallery-row-two {
+      height: 306px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 60px;
+      .gallery-two-image-one {
+        background-image: linear-gradient(rgba(84, 13, 110, 0.8)),
+          url("/images/galler-image-four.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        max-width: 603px;
+        height: 306px;
+        width: 100%;
+      }
+      .gallery-two-image-two {
+        background-image: linear-gradient(rgba(59, 206, 171, 0.8)),
+          url("/images/gallery-image-five.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        max-width: 355px;
+        height: 306px;
+        width: 100%;
+      }
+    }
+  }
+}

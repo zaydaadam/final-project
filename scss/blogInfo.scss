@@ -1,0 +1,56 @@
+@use "variables" as v;
+.blog-all-one {
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 153px;
+  margin-bottom: 151px;
+  .blog-hero-one {
+    background-image: linear-gradient(rgba(238, 67, 103, 0.6)),
+      url("/images/blogOne.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    max-width: 980px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 52px;
+    .blog-date {
+      background-color: v.$color-pink;
+      height: 155px;
+      width: 155px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-right: 20px;
+      color: white;
+      .blog-day {
+        font-size: 55px;
+        font-weight: v.$gsbold;
+      }
+      .blog-month {
+        font-size: 31px;
+      }
+    }
+  }
+  .blog-all-info {
+    .blog-all-header {
+      margin-top: 52px;
+      margin-bottom: 29px;
+      color: #ee4367;
+    }
+    .blog-all-paragraph {
+      p {
+        margin-bottom: 33px;
+        font-weight: v.$gsl;
+        font-weight: 20px;
+        max-width: 856px;
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+@use "variables" as v;
+.about {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 980px;
+  .about-hero {
+    background-image: linear-gradient(rgba(255, 209, 64, 0.8)),
+      url("/images/about.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 380px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 180px;
+  }
+  .history-header {
+    font-size: 25px;
+    font-weight: v.$gsb;
+    width: 230px;
+    border-bottom: 2px solid;
+    // background-color: yellow;
+    margin-top: -25px;
+    padding-bottom: 10px;
+  }
+  .history-paragraph {
+    margin-top: 37px;
+    margin-bottom: 95px;
+    font-weight: v.$gsl;
+    font-style: italic;
+  }
+}
